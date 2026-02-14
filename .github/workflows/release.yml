@@ -23,7 +23,7 @@ jobs:
               $_.Name -ne 'SECURITY.md'
             }
 
-        Compress-Archive -Path $files -DestinationPath c-env-bootstrap.zip
+          Compress-Archive -Path $files -DestinationPath c-env-bootstrap.zip
 
       - name: Release
         uses: softprops/action-gh-release@v2
