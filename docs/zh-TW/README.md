@@ -140,4 +140,4 @@ Set-ExecutionPolicy RemoteSigned -Scope Process
 
 ## License
 
-本專案採用 <a href="LICENSE">MIT license</a>，歡迎自由取用於教學或專業用途。
+本專案採用 <a href="../../LICENSE">MIT license</a>，歡迎自由取用於教學或專業用途。
