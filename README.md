@@ -2,6 +2,10 @@
 
 <br>
 
+[English | [繁體中文](docs/zh-TW/README.md)]
+
+<br>
+
 [![Platform: Windows](https://img.shields.io/badge/Platform-Windows-357EC7.svg?logo=windows)](https://www.microsoft.com/windows)
 [![Shell: PowerShell](https://img.shields.io/badge/Shell-PowerShell-4477D0.svg?logo=powershell)](https://github.com/PowerShell/PowerShell)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/mellivorandy/c-env-bootstrap?tab=MIT-1-ov-file#readme)
@@ -46,7 +50,7 @@ Setting up a C++ environment on Windows often involves fragmented steps (install
 
 * **OS**: Windows 10 or 11 (64-bit).
 
-* **Permissions**: You must run PowerShell as **Administrator**.
+* **Permissions**: You must run the scripts as **Administrator**.
 
 * **Network**: Active internet connection for downloading components (~300MB+).
 
@@ -59,6 +63,8 @@ Setting up a C++ environment on Windows often involves fragmented steps (install
 1. Go to the repository [Releases](https://github.com/mellivorandy/c-env-bootstrap/releases) section.
 
 2. Download the latest release ZIP file (`Source code (zip)`).
+
+<br>
 
 ### 2. Extract the ZIP File
 
@@ -77,6 +83,8 @@ Instead:
 
 After extraction, open the extracted folder.
 
+<br>
+
 ### 3. (If Required) Allow Script Execution for This Session
 
 If you see an execution policy error, do:
@@ -92,6 +100,8 @@ Then run:
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope Process
 ```
+
+<br>
 
 ### 4. Run the Installer (Administrator Required)
 
