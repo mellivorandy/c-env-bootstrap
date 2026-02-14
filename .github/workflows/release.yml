@@ -15,7 +15,15 @@ jobs:
       - name: Create Zip Archive
         shell: pwsh
         run: |
-          Compress-Archive -Path .\* -DestinationPath c-env-bootstrap.zip -Exclude ".git*", ".github*", "CODE_OF_CONDUCT.md", "SECURITY.md"
+          $files = Get-ChildItem -Path . -Recurse -File |
+            Where-Object {
+              $_.FullName -notmatch '\\.git\\' -and
+              $_.FullName -notmatch '\\.github\\' -and
+              $_.Name -ne 'CODE_OF_CONDUCT.md' -and
+              $_.Name -ne 'SECURITY.md'
+            }
+
+        Compress-Archive -Path $files -DestinationPath c-env-bootstrap.zip
 
       - name: Release
         uses: softprops/action-gh-release@v2
