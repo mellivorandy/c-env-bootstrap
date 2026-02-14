@@ -62,7 +62,7 @@ Setting up a C++ environment on Windows often involves fragmented steps (install
 
 1. Go to the repository [Releases](https://github.com/mellivorandy/c-env-bootstrap/releases) section.
 
-2. Download the latest release ZIP file (`Source code (zip)`).
+2. Download the latest release ZIP file (`c-env-bootstrap.zip`).
 
 <br>
 

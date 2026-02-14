@@ -31,7 +31,7 @@
 
 - **最佳實踐配置**：寫入優化後的 `settings.json`（包含整合終端機、自動儲存、輸出清理等設定）。
 
-- **健全性測試**：自動產生 "Hello World" 專案以驗證工具鏈是否運作正常。
+- **健全性測試**：自動產生 `Hello World` 專案以驗證工具鏈是否運作正常。
 
 <br>
 
@@ -62,7 +62,7 @@
 
 1. 前往本專案的 [Releases](https://github.com/mellivorandy/c-env-bootstrap/releases) 頁面。
 
-2. 下載最新的版本 ZIP 壓縮檔 (`Source code (zip)`)。
+2. 下載最新的版本 ZIP 壓縮檔 (`c-env-bootstrap.zip`)。
 
 <br>
 
@@ -75,7 +75,7 @@
 
 1. 在下載的 ZIP 檔案上點擊右鍵。
 
-2. 選擇 **「全部解壓縮...」**。
+2. 選擇 **「解壓縮全部...」**。
 
 3. 選擇目標資料夾。
 
