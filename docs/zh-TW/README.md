@@ -42,7 +42,7 @@
 | **VSCode** | 最新穩定版 (x64) | 整合開發環境 (IDE) |
 | **MSYS2** | 最新滾動更新版 | 軟體分發與套件管理系統 |
 | **MinGW-w64** | GCC 工具鏈 | 編譯器、連結器與除錯器 |
-| **Extensions** | C/C++ Tools, Code Runner | 程式碼補完 (IntelliSense) 與一鍵執行 |
+| **Extensions** | C/C++ Tools, Code Runner | 程式碼補全 (IntelliSense) 與一鍵執行 |
 
 <br>
 
